@@ -1,0 +1,74 @@
+ASSIGNMENT
+
+AI728:DIGITAL IMAGE PROCESSING 
+
+Submitted By
+
+Suman Bhukar(15MCMT29)
+Mohan Reddy(15MCMT10)
+Rosni Kv(15MCMI15)
+
+--------------------------------------------------------------------------------
+Problem 1
+Take the hubble image and count number of large stars and colour them with
+different colours based on their sizes.
+
+Problem 2
+Find stars whose area is greater than some threshold and color it RED.
+
+
+----------------------------------------------------------------------------------
+
+FOLDERS AND FILES INCLUDED
+
+Group_10
+   |
+--Matlab_Programs
+	|
+    =>	main.m (Problem1 solution main program)
+	|
+	colour.m (Problem 1 solution Defined Function used in main.m)
+	|
+      code.m (Problem 1 Another Solution)
+	
+	
+   =>	main2.m (Problem2 solution main program)
+	|
+	red.m (Problem2 Solution Defined Function used in main2.m)
+         
+
+--Input_output_images
+	|
+	hubble.tif (Input image taken from Image Databases (www.imageprocessingplace.com/root_files_V3/image_databases.html))
+	|
+	coloured_hubble.png (Output image Problem1)
+	|
+	gray_to_rgb.png (Converted RGB Image)
+	|
+	labeled.png (Intermediate image)
+	|
+	method2.png( Output image Problem 1 Method2)
+	|
+	Red_coloured_hubble.png(Output Image Problem 2)
+
+--report.pdf (Assignment Report includes Code , Input images, Output Images and Procedures)
+
+--README 
+______________________________________________________________________________________
+
+How to Run?
+
+1. Open in matlab
+
+2. For Problem 1 Solution 1 Run main.m (use colour.m)
+
+P.S: all matlab code should be in current directory.
+
+3. For Problem1 Second Solution Run code.m
+
+4. For Problem2 Solution Run main2.m (use red.m)
+
+P.S : Output files generated in the current directory.
+
+------------------------------------------------------------------------------------------------
+
